@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+option csharp_namespace = "UserManagementService";
+
+package UsersModel;
+
+service UserService {
+  rpc Register (RegisterRequest) returns (RegisterResponse);
+  rpc Login (LoginRequest) returns (LoginResponse);
+  rpc GetUserRoles (GetUserRolesRequest) returns (GetUserRolesResponse);
+}
+
+message RegisterRequest {
+  string username = 1;
+  string password = 2;
+  string email = 3;
+}
+
+message RegisterResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message LoginResponse {
+  bool success = 1;
+  string message = 2;
+  string token = 3;
+}
+
+message GetUserRolesRequest {
+  int32 userId = 1;
+}
+
+message GetUserRolesResponse {
+  repeated string roles = 1;
+}

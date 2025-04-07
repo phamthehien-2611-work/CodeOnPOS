@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "qJVhA5bv185k9sOlIvuQjUMLuaqZAEdGnbjEA5W6C4k=",
+  "Source": "ProductManagementService",
+  "BasePath": "_content/ProductManagementService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

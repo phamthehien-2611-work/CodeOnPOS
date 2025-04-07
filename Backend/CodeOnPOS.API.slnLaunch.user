@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "CodeOnPOS",
+    "Projects": [
+      {
+        "Path": "UserManagementService\\UserManagementService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ApiGateway\\ApiGateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

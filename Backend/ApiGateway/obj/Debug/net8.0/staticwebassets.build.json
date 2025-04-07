@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "XebEaRYQqQdi4sAO7lyxGIURahjwIq16ND8WqfzgXw4=",
+  "Source": "ApiGateway",
+  "BasePath": "_content/ApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\CodeOn Labs\\CodeOnPOS\\Backend\\UserManagementService\\UserManagementService.csproj",
+      "Version": 2,
+      "Source": "UserManagementService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
